@@ -1,0 +1,125 @@
+/*foundational_tags*/
+
+p {
+  margin: 0px;
+}
+
+nav {
+  background-color: lightgrey;
+  border: solid 1px black;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+h2 {
+  font-size: 28px;
+  font-style: oblique;
+  text-align: center;
+}
+
+p2 {
+  font-size: 24px;
+}
+
+
+/*nav bar*/
+
+.menu {
+  display: inline-block;
+  text-align: center;
+  background-color: darkgray;
+  padding: 20px;
+  height: auto;
+  width: 80px;
+  border-left: solid 1px black;
+  border-right: solid 1px black;
+}
+
+
+/*left nav bar*/
+
+.leftColumn {
+  float: left;
+  width: 25%;
+  height: 1024px;
+  background-color: lightskyblue;
+}
+
+.headerImage {
+  height: 25%;
+  background-color: orange;
+  text-align: center;
+  border-right: solid 1px black;
+}
+
+.pfp {
+  width: 100%;
+  min-width: 112px;
+  max-width: 180px;
+  height: auto;
+  margin: auto;
+}
+
+.sideBar {
+  height: 75%;
+  background-color: darkorange;
+  border-right: solid 1px black;
+  border-top: solid 1px black;
+}
+
+.secondaryList {
+  text-align: left;
+  padding: 25px;
+}
+
+.secListEntry {
+  margin: 12px;
+  margin-bottom: 24px;
+  padding:11px;
+  padding-left: 25px;
+  border: solid 1px yellow;
+  border-radius: 17px;
+  font-style: italic;
+  font-size: larger;
+}
+
+
+/*central content*/
+
+.mainPage {
+  float: left;
+  width: 75%;
+  height: 1024px;
+  background-color: lightseagreen;
+}
+
+.pageContent {
+  margin-top: 75px;
+}
+
+.contentHolder {
+  width: 90%;
+  height: auto;
+  border: solid 1px black;
+  border-radius: 8px;
+  margin: 0px auto;
+  margin-top: 25px;
+  padding: 20px;
+  text-align: justify;
+}
+
+.heroThumbnail {
+  float: left;
+  width: 200px;
+  margin: 35px;
+}
+
+.listImages {
+  text-align: center;
+}
+
+.PNGicon {
+  margin: 35px;
+}
